@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: #f4f5f7;
+}
+
+.container {
+  background-color: #c4c4c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.empty {
+  width: 377px;
+}
+
+.nav-head {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link ul {
+  padding-right: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 17px;
+}
+
+.headlink {
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  margin-right: auto;
+  color: black;
+}
+
+.nav-link ul li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: "Modern No. 20", sans-serif;
+  text-align: center;
+  padding-top: 21px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+}
+
+.categories ul {
+  width: 727px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories ul li {
+  font-family: "Modern No. 20", sans-serif;
+}
+
+.headimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1236px;
+  height: 689px;
+}
+
+.headerhero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.headertext {
+  font-family: "Modern No. 20", sans-serif;
+  font-size: 36px;
+  padding-top: 26px;
+  padding-bottom: 12px;
+  text-align: center;
+  width: 252px;
+  height: 50px;
+}
+
+.headerparagraph {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 32px;
+  text-align: center;
+  width: 471px;
+  height: 50px;
+}
+
+.her {
+  background-color: white;
+  font-size: 14px;
+  border: 1px solid black;
+  width: 224px;
+  height: 57px;
+}
+
+.newarrival {
+  display: flex;
+  justify-content: space-around;
+  width: 1196px;
+}
+
+.newarrivaltext {
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 41px;
+  padding-bottom: 74px;
+  text-align: center;
+}
+
+.newcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 74px;
+}
+
+.descriptive {
+  padding-top: 16px;
+  padding-left: 40px;
+  color: #848484;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.productname {
+  padding-left: 40px;
+  font-size: 14px;
+}
+
+.shopcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 175px;
+}
+
+.shoptext {
+  align-self: flex-end;
+}
+
+.shoptitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.shopparagraph {
+  width: 300px;
+  height: 32px;
+  padding-bottom: 37px;
+}
+
+.footerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1236px;
+  height: 581px;
+}
+
+.poster {
+  background-image: url("/Exercise1/img/footerimg.png");
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1236px;
+  height: 689px;
+  width: 1236px;
+  height: 581px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+h4 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+}
+
+.posterinfo {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.footer ul li {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+footer {
+  background-color: #ffffff;
+  padding-left: 120px;
+  padding-top: 43px;
+}
